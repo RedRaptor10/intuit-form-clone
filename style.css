@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Reset */
+
+body {
+    background: #eceef1;
+    color: rgb(128, 128, 128);
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+    color: #0077c5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #0077c5;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header {
+    height: 10vh;
+    padding: 12px 24px 12px 24px;
+}
+
+#header-sign-in {
+    float: right;
+    height: 40px;
+}
+
+#header-sign-in-prompt {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+#header-sign-in-prompt div {
+    margin-bottom: 4px;
+}
+
+#header-sign-in-btn {
+    width: 114px;
+    height: 36px;
+    border: 1px solid #4c4c4c;
+}
+
+#main-header {
+    text-align: center;
+}
+
+#logo {
+    width: calc(150px * 0.75);
+    height: calc(70px * 0.75);
+}
+
+#main-navigation {
+    padding: 12px 0 12px 0;
+    font-size: 20px;
+}
+
+#main-navigation a {
+    color: rgb(128, 128, 128);
+}
+
+#main-navigation a:hover {
+    text-decoration: none;
+}
+
+#main-navigation img {
+    margin: 0 12px 0 12px;
+}
+
+#intuit-form {
+    background: rgb(255, 255, 255);
+    width: 20%;
+    margin: 0 auto 0 auto;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+#intuit-form-content {
+    padding: 24px;
+}
+
+#intuit-form h1 {
+    padding: 24px 0 24px 0;
+    font-size: 24px;
+    color: rgb(64, 64, 64);
+    text-align: center;
+}
+
+#intuit-form h3 {
+    padding: 0 0 24px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+#intuit-form a {
+    color: rgb(64, 156, 255)
+}
+
+#intuit-form label {
+    display: block;
+    padding: 12px 0 12px 0;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+
+#intuit-form label span {
+    color: rgb(128, 128, 128);
+}
+
+#intuit-form input {
+    width: 100%;
+    height: 32px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+}
+
+#intuit-form-phone-info {
+    font-size: 10px;
+}
+
+#intuit-form-submit-btn-container {
+    padding: 24px 0 24px 0;
+    text-align: center;
+}
+
+#intuit-form-submit-btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    box-shadow: 0 1px 1px 0 rgb(0, 0, 0);
+}
+
+#intuit-form-submit-btn:hover {
+    background: #0077d5;
+}
+
+#intuit-form-tos {
+    margin-bottom: 24px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    line-height: 18px;
+}
+
+#intuit-form-tos span {
+    color: rgb(96, 96, 96);
+    font-weight: bold;
+}
+
+#intuit-form-footer {
+    background: rgb(240, 240, 240);
+    padding: 24px;
+    color: rgb(156, 156, 156);
+    font-size: 10px;
+    text-align: center;
+}
+
+#main-footer {
+    padding: 24px 0 24px 0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#main-footer-navigation a {
+    margin: 0 4px 0 4px;
+}
+
+footer {
+    background: rgb(255, 255, 255);
+    height: 1vh;
+    padding: 24px;
+    font-size: 12px;
+}
